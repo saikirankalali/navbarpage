@@ -1,0 +1,62 @@
+:root {
+    font-size: 16px;
+}
+body {
+    margin:0;
+    padding: 0;
+    background-color:red;
+    
+}
+#heading {
+    margin:1vw;
+    margin-left: 5vw;
+    padding: 0;
+    
+    font-size: 3rem;
+    text-align: center;
+}
+#1/*ul*/ {
+	margin:2vw;
+	margin-left: 8vw;
+	padding:0;	
+	list-style-type: none;	
+}
+ul li {		
+
+font-size: 1rem;
+background-color:skyblue;
+border: 1px solid white;
+width:20vw;
+height:5vh;
+line-height: 5vh;
+float: left;
+text-align: center;
+list-style-type: none;
+
+
+}
+ul li a{		
+text-decoration: none;
+color: black;
+display: block;
+}
+ul li a:hover{		
+background-color:pink;
+color: white;
+}
+ #2/*ul*/ {
+margin:0px;
+	margin-left: 0;
+	padding:0;	
+	list-style-type: none;	
+}
+ul li ul li {
+	display: none;
+	margin : 0;
+}
+ul li:hover ul li{		
+display: none;
+}
+.focus{
+	background-color:pink;
+}
